@@ -38,6 +38,7 @@ Version:1.1 */
 @media (max-width: 991px) {
     section :first-of-type { margin-top: 20px; }
 }
+}
 html{
     overflow-x: hidden !important;
 }
@@ -246,9 +247,8 @@ section{
     width: auto;
     vertical-align: middle;
     max-width: 100%;*/
-    min-width: 100px;
-    max-width: 100px;
-    margin-top: -15px;
+    max-width: 70px;
+    margin-top: -18px;
 }
 .navbar{
     margin-bottom:0px;
@@ -259,7 +259,7 @@ section{
 }
 ul.navbar-nav a {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 15px;
     padding: 15px 0 15px 30px;
     line-height: 40px;
     display: inline-block;
@@ -2667,4 +2667,16 @@ iframe{
     -webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+}
+@media (min-width: 1200px){
+    .gallery-thumb {
+        width: 361px;
+        height: 190px;
+    }
+}
+@media (max-width: 1199px){
+    .gallery-thumb {
+        width: 290px;
+        height: 140px;
+    }
 }
