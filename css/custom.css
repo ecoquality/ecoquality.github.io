@@ -36,7 +36,7 @@ Version:1.1 */
     background-image: url("http://www.transparenttextures.com/patterns/green-dust-and-scratches.png") !important;
 }
 @media (max-width: 991px) {
-    section :first-of-type { margin-top: 20px; }
+    /*section :first-of-type { margin-top: 20px; }*/
 }
 }
 html{
@@ -2682,4 +2682,8 @@ iframe{
 }
 .split-text{
     line-height: 1.2em !important;
+}
+h5> span{
+    font-size: 2em;
+    margin-right: 10px;
 }
