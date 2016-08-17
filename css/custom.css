@@ -2649,8 +2649,9 @@ iframe{
 }
 .realtors{
     color: #3a3a3a;
+    font-size: 15px
 }
-.realtors li{
+.realtors > .row > div{
     padding-bottom: 15px;
 }
 .realtors > div{
